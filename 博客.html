@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/swiper.css">
+    <!--<link rel="stylesheet" href="css/base.css">-->
+</head>
+<body>
+<style>
+    @import url('base.css');
+    .box{
+        width:100%;
+        height: 2rem;
+        background: red;
+        font-size: 25px;
+        text-align: center;
+        position: relative;
+    }
+    .box1{
+        font-size: 14px;
+        text-align:center;
+        display: flex;
+        margin-right: 0.5rem;
+
+    }
+    .box1 ul a{
+        color: #000;
+    }
+    .swiper-container {
+        width: 100%;
+        height: 200px;
+    }
+    swiper-slide img{
+        width:100%;
+        height: 100%;
+        text-align: center;
+    }
+    .tu{
+        width: 100%;
+        height:40rem;
+        margin-top:1rem;
+    }
+    .tu img{
+        display: block;
+        width:100%;
+        height:100%;
+    }
+
+</style>
+<header>
+    <div class="box">张博乾博客</div>
+    <div class="box1">
+        <ul><a href="">首页</a></ul>
+        <ul><a href="gerendangan.html">个人档案</a></ul>
+        <ul><a href="xuewuzhijing.html">学无止境</a></ul>
+        <ul><a href="">新闻</a></ul>
+    </div>
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="img/a1ab7f12bc44fb20db14c993659dfbef9caac9a42c300-LVWHFF_fw658.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="img/ae24f3de260f192e888f451893425026d7cca45bef6f1-R4erfd_fw658.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="img/70716341314abd4f2670d959be5596e37519a5f456628-BKgbaY_fw658.jpg" alt=""></div>
+        </div>
+
+    </div>
+</header>
+<section>
+    <div class="tu">
+        <img src="img/61158813eeb8a3bf96aa6aca4f3da4d3f770b3d129122-uDpADA_fw658.jpg" alt="">
+    </div>
+</section>
+
+</body>
+<script src="js/jquery-3.2.1.min.js"></script>
+<script src="js/swiper.min.js"></script>
+<script>
+    var mySwiper = new Swiper ('.swiper-container', {
+        loop: true,
+
+    })
+</script>
+</html>
